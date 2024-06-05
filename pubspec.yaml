@@ -1,0 +1,41 @@
+name: catsnap
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1 #this dependency provides the http protocol which helps in information exchange on the internet (web)
+  wallpaper: ^1.1.1
+  flutter_wallpaper_manager: ^0.0.4 #this dependency helps in setting the selected image as the Home n Lock_screen wallpaper
+  permission_handler: ^9.0.0  #This plugin provides a cross-platform (iOS, Android) API to request permissions and check their status. You can also open the device's app settings so users can grant permission.
+  google_fonts: ^6.2.1
+  path_provider: ^2.1.3 #Flutter plugin for getting commonly used locations on host platform file systems, such as the temp and app data directories.
+  shimmer: ^3.0.0
+  flashy_tab_bar2: ^0.0.10
+  flutter_dotenv: ^5.1.0
+  google_generative_ai: ^0.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+  assets:
+    - Images/
+
+
